@@ -1,3 +1,3 @@
 FROM getmeili/meilisearch:latest
-RUN -p 7700:7700 -v "$(pwd)/meili_data:/meili_data" getmeili/meilisearch
+RUN -v "$(pwd)/meili_data:/meili_data"
 EXPOSE 7770
