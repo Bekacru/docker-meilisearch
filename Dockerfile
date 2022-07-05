@@ -1,2 +1,2 @@
-FROM getmeili/meilisearch:v0.23.0
+RUN docker run -p 7700:7700 -v "$(pwd)/meili_data:/meili_data" getmeili/meilisearch
 EXPOSE 7770
