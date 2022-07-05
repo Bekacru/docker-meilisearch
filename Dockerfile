@@ -1,2 +1,2 @@
 FROM getmeili/meilisearch:latest
-EXPOSE 7770
+EXPOSE 7700
